@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Softwarinos - Detekto</title>
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="transparent">
+    <div class="nav-content">
+      <div class="logo">Detekto</div>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about-us">Nosotros</a></li>
+        <li><a href="#about-product">Aplicación</a></li>
+        <li><a href="#about-team">Equipo</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section class="hero" id="home">
+    <h1>Bienvenido a Softwarinos</h1>
+    <p>Detekto es la app inteligente para ferreterías: reconoce herramientas, organiza tu stock y potencia tus ventas.</p>
+    <button>Conoce más</button>
+  </section>
+  
+    <!-- About Us Section -->
+  <section id="about-us">
+  <h2 class="about-title">Sobre Nosotros</h2>
+  <div class="about-wrapper">
+    <div class="about-text">
+      <p>En Softwarinos, desarrollamos una app móvil con reconocimiento de objetos para facilitar a los vendedores la búsqueda y venta de productos, y permitir a los administradores dar seguimiento y proyectar sus ventas.</p>
+    </div>
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Equipo Softwarinos">
+    </div>
+  </div>
+  <div class="about-boxes">
+    <div class="about-card">
+      <div class="card-front">Misión</div>
+      <div class="card-back">
+        Reconocer objetos con precisión para facilitar la venta y gestión de productos en ferreterías.
+      </div>
+    </div>
+    <div class="about-card">
+      <div class="card-front">Visión</div>
+      <div class="card-back">
+        Ser líderes en soluciones tecnológicas que impulsan el comercio inteligente.
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- About the Product -->
+  
+<section id="about-product" style="background-color: #f0fdf4; padding: 100px 20px; position: relative; overflow: hidden;">
+  <h2 style="text-align: center; font-size: 2.5rem; color: #1f2937; margin-bottom: 20px;">Sobre la Aplicación</h2>
+  <p style="text-align: center; max-width: 800px; margin: 0 auto 60px; font-size: 1.1rem; color: #333;">
+    Con Detekto podrás identificar herramientas apuntando con tu cámara, ver productos disponibles por marca, gestionar tu inventario y realizar reservas en segundos.
+  </p>
+  <div class="product-feature">
+    <div class="feature-text">
+      <h3>Reconocimiento de Herramientas</h3>
+      <p>Detecta automáticamente productos como martillos, destornilladores o sierras y muestra las marcas disponibles.</p>
+    </div>
+    <div class="feature-img">
+      <img src="assets/images/alineacion-de-objetos.png" alt="Herramientas">
+    </div>
+  </div>
+  <div class="product-feature reverse">
+    <div class="feature-text">
+      <h3>Gestión de Inventario</h3>
+      <p>Organiza productos, visualiza tu stock en tiempo real y evita quiebres de stock.</p>
+    </div>
+    <div class="feature-img">
+      <img src="assets/images/inventario.png" alt="Inventario">
+    </div>
+  </div>
+  <div class="product-feature">
+    <div class="feature-text">
+      <h3>Reservas y Ventas</h3>
+      <p>Reserva productos identificados y gestiona las ventas desde cualquier dispositivo.</p>
+    </div>
+    <div class="feature-img">
+      <img src="assets/images/punto-de-venta.png" alt="Ventas">
+    </div>
+  </div>
+  <div class="product-feature reverse">
+    <div class="feature-text">
+      <h3>Seguimiento GPS de Vendedores</h3>
+      <p>Monitorea automáticamente la ubicación de vendedores externos cada 2 horas para una mejor planificación y seguridad.</p>
+    </div>
+    <div class="feature-img">
+      <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="GPS">
+    </div>
+  </div>
+  <div class="decorative-circle"></div>
+  <div class="decorative-circle small"></div>
+</section>
+
+  <!-- Team Section -->
+  <section id="about-team" class="team-section">
+  <h2 class="team-title">Sobre el Equipo</h2>
+  <p class="team-description">Somos Softwarinos, un equipo de apasionados por la tecnología y la innovación para la industria ferretera.</p>
+  <div class="team-decor decor-top-right"></div>
+  <div class="team-decor decor-bottom-left"></div>
+  <div class="team-container">
+    <div class="team-member">
+      <img src="assets/images/FotoManuel.jpg" alt="Manuel Gutierrez">
+      <div class="overlay">Manuel Gutierrez</div>
+    </div>
+    <div class="team-member">
+      <img src="assets/images/FOTOCARNET25.jpg" alt="Julio Elsner">
+      <div class="overlay">Julio Elsner</div>
+    </div>
+    <div class="team-member">
+      <img src="assets/images/rostro-Jocais.jpeg" alt="Jose Ampudia">
+      <div class="overlay">Jose Ampudia</div>
+    </div>
+    <div class="team-member">
+      <img src="assets/images/FotoMiquel.png" alt="Miquel De la Piedra">
+      <div class="overlay">Miquel De la Piedra</div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+ <section id="contact" class="contact-section">
+  <h2 class="contact-title">Contáctanos</h2>
+  <p class="contact-description">
+    ¿Interesado en <strong>Detekto</strong>? Déjanos tus datos y nuestro equipo se pondrá en contacto contigo lo antes posible.
+  </p>
+  <form class="contact-form">
+    <input type="text" placeholder="Nombre" required />
+    <input type="email" placeholder="Correo electrónico" required />
+    <textarea placeholder="Mensaje" rows="5" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</section>
+
+
+  <footer>
+  <p>&copy; 2025 Softwarinos. Todos los derechos reservados. | Detekto</p>
+</footer>
+</body>
+<script src="assets/scripts/script.js"></script>
+</html>
